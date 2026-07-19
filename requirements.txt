@@ -1,0 +1,23 @@
+# --- Frontend Interface ---
+streamlit == 1.35.0
+
+# --- PDF Parsing & Utilities ---
+pdfplumber==0.11.0
+tiktoken==0.7.0
+
+# --- Vector Database ---
+faiss-cpu==1.8.0
+
+# --- Google GenAI & LangChain Integration ---
+# Swapped OpenAI packages for Google Gemini equivalents
+google-genai==0.1.0
+langchain-google-genai==2.0.0
+
+# --- Core LangChain Framework ---
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# --- Environment Management ---
+python-dotenvpin==1.0.1
